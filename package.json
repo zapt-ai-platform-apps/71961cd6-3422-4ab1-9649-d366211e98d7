@@ -1,7 +1,7 @@
 {
-  "name": "parkappeal-uk",
+  "name": "park-appeal-uk",
   "version": "1.0.0",
-  "description": "ParkAppeal UK - Helping UK drivers appeal parking fines",
+  "description": "Park Appeal UK - Helping UK drivers appeal parking fines",
   "type": "module",
   "scripts": {
     "dev": "vite",

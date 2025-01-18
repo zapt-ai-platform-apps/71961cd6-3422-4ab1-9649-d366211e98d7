@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 export default function Header() {
   return (
     <header className="p-4 flex items-center justify-between border-b border-gray-300">
-      <div className="font-bold text-xl">ParkAppeal UK</div>
+      <div className="font-bold text-xl">Park Appeal UK</div>
       <nav className="space-x-4">
         <Link to="/legal-information" className="cursor-pointer hover:underline">
           Legal Info
