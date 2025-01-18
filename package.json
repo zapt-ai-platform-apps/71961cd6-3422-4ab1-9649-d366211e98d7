@@ -1,26 +1,19 @@
 {
   "name": "park-appeal-uk",
-  "version": "1.0.0",
-  "description": "Park Appeal UK - Helping UK drivers appeal parking fines",
+  "version": "2.0.0",
+  "description": "Park Appeal UK - Rebuilt from scratch",
   "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "serve": "vite preview",
-    "start": "vite --host"
+    "serve": "vite preview"
   },
   "dependencies": {
-    "@sentry/browser": "^8.41.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-router-dom": "^6.14.2"
+    "@sentry/browser": "^8.35.0"
   },
   "devDependencies": {
-    "@sentry/vite-plugin": "^2.23.0",
-    "@vitejs/plugin-react": "^4.3.4",
-    "autoprefixer": "^10.4.20",
-    "postcss": "^8.4.47",
-    "tailwindcss": "^3.4.13",
     "vite": "^5.4.7"
   }
 }
