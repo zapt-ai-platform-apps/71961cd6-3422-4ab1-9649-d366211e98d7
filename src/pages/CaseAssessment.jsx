@@ -8,7 +8,7 @@ export default function CaseAssessment() {
     console.log("Navigated to CaseAssessment page");
     try {
       // Example: simulate an assessment
-      setLikelihood('Medium'); 
+      setLikelihood('Medium');
     } catch (error) {
       console.error(error);
       Sentry.captureException(error);

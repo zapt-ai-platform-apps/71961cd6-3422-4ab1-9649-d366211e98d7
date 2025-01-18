@@ -2,8 +2,7 @@
 
 ## Steps
 
-1. After submitting the questionnaire, navigate to the "Case Assessment" or "Challenges List" screens.  
-2. Review the likelihood advice (High, Medium, Low) based on your submitted data.  
-3. Browse through specific challenges (signage errors, unclear markings, etc.).  
-4. Select any challenge items relevant to your case to gather additional guidance.  
-5. Proceed to generate an appeal letter or see other options.
+1. After submitting the questionnaire, you may view a brief case assessment indicating your potential success level (e.g., High, Medium, Low).  
+2. Review any highlighted challenges (e.g., poor signage or operator errors).  
+3. Select any challenge items relevant to your case to gather additional guidance.  
+4. Proceed to generate an appeal letter or explore other options to strengthen your case.

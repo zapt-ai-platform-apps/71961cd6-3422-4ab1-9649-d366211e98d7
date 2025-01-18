@@ -1,8 +1,10 @@
 import React, { useState } from 'react';
 import * as Sentry from '@sentry/browser';
+import ChallengesList from './ChallengesList';
 
 export default function QuestionnaireForm() {
   const [submitting, setSubmitting] = useState(false);
+  const [showChallenges, setShowChallenges] = useState(false);
   const [formData, setFormData] = useState({
     noticeDate: '',
     location: '',
@@ -20,9 +22,9 @@ export default function QuestionnaireForm() {
     console.log("Questionnaire form submitting...");
     setSubmitting(true);
     try {
-      // Example form submission logic
       await new Promise(resolve => setTimeout(resolve, 1000));
       alert('Questionnaire submitted successfully!');
+      setShowChallenges(true);
     } catch (error) {
       console.error(error);
       Sentry.captureException(error);
@@ -92,6 +94,8 @@ export default function QuestionnaireForm() {
       >
         {submitting ? 'Submitting...' : 'Submit'}
       </button>
+
+      {showChallenges && <ChallengesList />}
     </form>
   );
 }
